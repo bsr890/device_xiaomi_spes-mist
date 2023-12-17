@@ -14,4 +14,12 @@
     <string name="oled_hbm_title_enabled">Enabled</string>
     <string name="oled_hbm_title_disabled">Disabled</string>
 
+    <!-- Refresh Rate  -->
+    <string name="refresh_title">Refresh rate per-app</string>
+    <string name="refresh_summary">Set a specific refresh rate for each application</string>
+    <string name="refresh_rate_tile_title">Refresh Rate</string>
+    <string name="refresh_medium">Low (60 Hz)</string>
+    <string name="refresh_high">High (90 Hz)</string>
+    <string name="refresh_default">Default (60/90 Hz)</string>
+
 </resources>
