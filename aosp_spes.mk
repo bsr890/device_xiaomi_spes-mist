@@ -5,8 +5,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit from spes device configuration
 $(call inherit-product, device/xiaomi/spes/device.mk)
 
-# Inherit from common AOSP configuration
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit from common MistOS configuration
+$(call inherit-product, vendor/mist/config/common_full_phone.mk)
 
 # Device identifier
 PRODUCT_NAME := aosp_spes
