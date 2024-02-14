@@ -13,6 +13,7 @@
 # limitations under the License.
 
 DEVICE_PATH := device/xiaomi/spes
+BUILD_BROKEN_CLANG_PROPERTY := true 
 
 # Board Info
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
