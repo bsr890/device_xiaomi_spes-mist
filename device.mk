@@ -112,6 +112,10 @@ PRODUCT_PACKAGES += \
     SettingsProvider2201117TIOverlay \
     SettingsProvider2201117TYOverlay
 
+# WiFi Display
+PRODUCT_PACKAGES += \
+    libdisplayconfig.qti
+
 # Parts
 PRODUCT_PACKAGES += \
     SpesParts
